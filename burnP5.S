@@ -77,6 +77,7 @@ crunch:
 #else
 	int	$0x80
 #endif
+.data				# Data allocation
 .align 32,0
 half:	.long 0xffffffff,0x3fdfffff
 one:	.long 0xffffffff,0x3fefffff

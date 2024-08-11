@@ -74,6 +74,7 @@ int_exit:
 	push	%eax
 	int	$0x80
 #endif
+.data				# Data allocation
 .align 32,0
 	.fill 64
 half:	.long 0x7fffffff,0
