@@ -1,3 +1,3 @@
 all : burnP5 burnP6 burnK6 burnK7 burnBX burnMMX
 .S:
-	$(CC) -s -nostdlib -o $@ $<
+	$(CC) -m32 -s -nostdlib -o $@ $<
